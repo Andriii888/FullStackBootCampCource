@@ -1,8 +1,9 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
 // Change code below this lineimport { galleryItems } from './gallery-items.js';
-
+import "simplelightbox/dist/simple-lightbox.min.css";
 const galaryBoxRef = document.querySelector('.gallery');
+
 const lightBox = require('simplelightbox');
 
 function imgValueFromGalleryItems(values) {
@@ -27,29 +28,3 @@ imgValueFromGalleryItems(galleryItems);
 new SimpleLightbox('.gallery a', { /* options */ });
 
 
-
-// galaryBoxRef.addEventListener('click', onZoomClickedImg); 
-
-// function onZoomClickedImg(e) { 
-//     e.preventDefault();
-//     if (e.target.nodeName !== "IMG") {
-//         return;
-//     }
-//     const imgSrc = e.target.dataset.source;
-//     const instance = basicLightbox.create(`
-//     <img src='${imgSrc}' width="800" height="600">
-// `)
-//     instance.show();
-
-//     const escBox = document.querySelector('.basicLightbox');
-//     document.addEventListener('keydown', (e) => {
-//         if (e.key === "Escape") {
-//             instance.close();
-//        }
-//     });
-// };
-
-
-
-
-// Change code below this line
