@@ -1,0 +1,21 @@
+img{border:5px solid white;
+    margin:0;
+width:100%;
+margin-bottom:30pt;}
+
+p,h1,h2{
+padding:0;
+text-align: center;}
+h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+div{
+    width:50%;
+    margin-left:25%;
+        text-align: center;
+        margin-top:30px;
+        
+
+}
