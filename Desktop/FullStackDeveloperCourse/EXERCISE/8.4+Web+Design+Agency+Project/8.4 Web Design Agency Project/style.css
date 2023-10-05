@@ -14,6 +14,10 @@ h1 {
   font-size: 5rem;
 }
 
+p{
+  display:inline;
+}
+
 footer {
   text-align: right;
   color: midnightblue;
@@ -24,9 +28,46 @@ footer {
 
 }
 .right{
-  float:right;
+  float:left;
 }
+.tile-image{
+  margin-right:10px;
+  float:left;
+  width:200px;
+}
+/* .card{
+} */
+/* .tile-imageLeft{
+  width:40%;
+float:left;
+}
+.tile-imageRight{
+  float:left;
+  width:40%;
+
+} */
 
 .card{ 
-  display:inline-box;
+  display:inline-block;
+  width:50%;
+}
+@media(max-width:680px){
+  .card{display:block;
+    width:100%;
+    margin-bottom:20px;
+  
+  }
+ footer{
+  text-align:center;
+ }
+ .tile-image{
+  width:300px;
+ }
+ .card > img{
+  margin:0;
+margin-left :30px;}
+
+h2{
+  text-align:center;
+}
 }
